@@ -1,5 +1,5 @@
 ---
-- hosts: awsservers
+- hosts: awsgroup
   gather_facts: no
   remote_user: azureuser
   tasks:
