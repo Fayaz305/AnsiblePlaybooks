@@ -1,0 +1,9 @@
+---
+- hosts: awsservers
+  gather_facts: no
+  remote_user: azureuser
+  tasks:
+    - name: Test connection
+      ping:
+      remote_user: azureuser
+...
